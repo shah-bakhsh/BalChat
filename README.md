@@ -6,7 +6,7 @@ BalChat is a new, small Balochi text-completion experiment. Its model weights an
 
 ## Publication status
 
-Training finished on the GPU machine. Large-file retrieval is currently interrupted, so model weights have not yet been uploaded to Hugging Face. `release.json` deliberately has no revision until the uploaded bytes can be verified. The demo loader stops with a clear pending-checkpoint error rather than using a different model. The earlier Qwen demo is still available; BalChat has not replaced it.
+Training finished on the GPU machine. The full commercial checkpoint has been retrieved, matched against the GPU file hashes and reloaded on CPU with validation/state parity. Hugging Face upload awaits an authenticated publishing session; research checkpoint retrieval continues separately. `release.json` deliberately has no revision until uploaded bytes can be verified. The demo loader stops with a pending-checkpoint error. The earlier Qwen demo is still available; BalChat has not replaced it.
 
 ## What was built
 
@@ -42,7 +42,7 @@ The default is five epochs, block 256, batch 1/accum 8, learning rate 0.0003, at
 
 The commercial run completed 90 optimizer updates over five epochs. Validation NLL fell from 8.258177 to 5.727272 (perplexity 3859.053010 to 307.130297, 4788 predicted tokens). Saved weights reproduced the selected loss on the GPU host. The four diagnostic requests for greetings, translation and arithmetic produced punctuation or repetition instead of useful answers. These are observed failures; lower validation loss does not establish assistant quality.
 
-The commercial reports in `reports/` were retrieved from the completed GPU run. Full checkpoint transfer and local verification remain pending. Their original `time_budget_scope` label overstated which evaluation was excluded; the actual timing behavior is described above. Their tokenizer file hashes also describe the original saved metadata, before the persistent input-field repair required for the eventual release. Model tensors and learned BPE bytes are preserved by that repair. Perplexity is specific to each tokenizer and cannot be compared directly with Qwen or the research tokenizer.
+The commercial reports in `reports/` include the completed GPU run and fresh CPU verification after repairing tokenizer input-field metadata. Model tensors and learned BPE bytes are unchanged. Their original `time_budget_scope` label overstated which evaluation was excluded; the actual timing behavior is described above. Perplexity is specific to each tokenizer and cannot be compared directly with Qwen or the research tokenizer. An offline integration check also loaded the exact commercial export through the demo's loader and generated continuations for Arabic and Latin prefixes; this checks software execution, not language quality or live Hub/Space deployment.
 
 ## Run the demo
 
