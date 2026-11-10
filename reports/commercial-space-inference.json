@@ -1,0 +1,25 @@
+{
+  "space_id": "shah-bakhsh/balcorpus-balochi-demo",
+  "space_revision": "1afec86feb11027c8dbc7d0c955d71ff8ad8bbba",
+  "model_id": "shah-bakhsh/BalChat",
+  "model_revision": "04bf97c74358fd6f45463ac22fcc9db2cfb074b1",
+  "public_cpu_api_generation_passed": true,
+  "empty_input_rejected": true,
+  "gpu_tested": false,
+  "browser_ui_tested": false,
+  "native_quality_established": false,
+  "samples": [
+    {
+      "prefix": "Balochi",
+      "output": ".\n\n\n' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' '",
+      "seconds": 0.828,
+      "native_correctness": null
+    },
+    {
+      "prefix": "بلوچی",
+      "output": " ء ء ء ء ء ء ء ء ء ء ء ء ء ء ء ء ء ء ء ء ء ء ء ء ء ء ء ء ء ء ء ء",
+      "seconds": 1.703,
+      "native_correctness": null
+    }
+  ]
+}

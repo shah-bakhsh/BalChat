@@ -1,0 +1,20 @@
+{
+  "public_hub_download_loader_and_completion_passed": true,
+  "model_id": "shah-bakhsh/BalChat",
+  "revision": "04bf97c74358fd6f45463ac22fcc9db2cfb074b1",
+  "weights_sha256": "a2130bf41e8e6f38362264b1221233711a6a89de581b0d42c118a0addd9642ee",
+  "device": "cpu",
+  "native_quality_established": false,
+  "samples": [
+    {
+      "prefix": "Balochi",
+      "output": ".\n\n\n' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' '",
+      "native_correctness": null
+    },
+    {
+      "prefix": "بلوچی",
+      "output": " ء ء ء ء ء ء ء ء ء ء ء ء ء ء ء ء ء ء ء ء ء ء ء ء ء ء ء ء ء ء ء ء",
+      "native_correctness": null
+    }
+  ]
+}

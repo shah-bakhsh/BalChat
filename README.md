@@ -6,7 +6,9 @@ BalChat is a new, small Balochi text-completion experiment. Its model weights an
 
 ## Publication status
 
-Training finished on the GPU machine. Both full checkpoints have been retrieved, matched against the GPU file hashes and passed CPU validation/state parity. The commercial checkpoint also passed offline inference checks. Hugging Face upload awaits an authenticated publishing session. `release.json` deliberately has no revision until uploaded bytes can be verified. The demo loader stops with a pending-checkpoint error. The earlier Qwen demo is still available; BalChat has not replaced it.
+The [commercial checkpoint](https://huggingface.co/shah-bakhsh/BalChat) is public. The separate research checkpoint is private and noncommercial. All 13 uploaded files per model were verified against the local export; both checkpoints passed CPU validation/state parity. The public Hub checkpoint downloaded and generated Arabic/Latin-prefix continuations through the actual loader. `release.json` pins that immutable Hub revision and its weight checksum.
+
+The [testing Space](https://huggingface.co/spaces/shah-bakhsh/balcorpus-balochi-demo) is live on its existing free allocation. Anonymous CPU API requests generated continuations for Arabic and Latin prefixes, and empty input was rejected. These outputs remain repetitive; the deployment test does not establish useful Balochi quality. Browser UI interaction and optional GPU generation were not tested. The earlier Qwen model repositories remain separately available.
 
 ## What was built
 
@@ -44,7 +46,7 @@ The commercial run completed 90 optimizer updates over five epochs. Validation N
 
 The private research run completed 1350 updates over five epochs. Validation NLL fell from 8.373118 to 4.896609; test NLL after checkpoint selection was 4.462040 (22,333 predicted tokens). CPU reload reproduced its selected validation loss and model-state digest. Its Latin-script request produced Arabic-script output, and reasoning was not demonstrated. Its checkpoint and diagnostic text remain private.
 
-The commercial reports in `reports/` include the completed GPU run and fresh CPU verification after repairing tokenizer input-field metadata. Model tensors and learned BPE bytes are unchanged. Their original `time_budget_scope` label overstated which evaluation was excluded; the actual timing behavior is described above. Perplexity is specific to each tokenizer and cannot be compared directly with Qwen or the research tokenizer. An offline integration check also loaded the exact commercial export through the demo's loader and generated continuations for Arabic and Latin prefixes; this checks software execution, not language quality or live Hub/Space deployment.
+The commercial reports in `reports/` include the completed GPU run, fresh CPU verification after repairing tokenizer input-field metadata, publication checksums, actual public Hub download/inference, and live Space CPU API checks. The latest software suite passed all 38 tests. Model tensors and learned BPE bytes are unchanged. The historical `time_budget_scope` label overstated which evaluation was excluded; the actual timing behavior is described above. Perplexity is specific to each tokenizer and cannot be compared directly with Qwen or the research tokenizer. Loader/inference checks establish software execution; they do not establish language quality.
 
 ## Run the demo
 
