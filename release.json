@@ -2,5 +2,5 @@
   "model_id": "shah-bakhsh/BalChat",
   "revision": null,
   "weights_sha256": "a2130bf41e8e6f38362264b1221233711a6a89de581b0d42c118a0addd9642ee",
-  "status": "TRAINED_ON_GPU_CHECKPOINT_TRANSFER_AND_HUB_UPLOAD_PENDING"
+  "status": "CHECKPOINTS_VERIFIED_LOCALLY_HUB_AUTHENTICATION_AND_UPLOAD_PENDING"
 }
