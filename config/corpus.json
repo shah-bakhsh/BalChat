@@ -1,0 +1,1426 @@
+{
+  "manifest_sha256": "aa60f10c9f859197b21cea3dc6e329494b440d2148a7783d718ef5e3cb8c289c",
+  "source_allowlist_sha256": "f4d06ad95cf0178cdc5cb1ffcfdb1d168a874f590df1280600079f20b0affc9e",
+  "notice_files": {
+    "LICENSES.md": {
+      "sha256": "56ad7a7ac2c6510dc5dd05d1580630abc7898670b7dc2d46b2b8ef94496f4d10",
+      "purpose_class": "commercial"
+    },
+    "metadata/source_permission_ledger.json": {
+      "sha256": "d373e5406ff1298e5376fb42a9c66102ffe38b89769030675e8ce719b6b77f8b",
+      "purpose_class": "commercial"
+    },
+    "metadata/academy_source_credits.json": {
+      "sha256": "b01c3399c7c192db7eacc2ccb7e88c394504c40768c53f40cc13130562f75802",
+      "purpose_class": "noncommercial"
+    },
+    "licenses/wowa_iran_balochi_coastal__citation.txt": {
+      "sha256": "24e1ca11c1c166774b88a402a31fb1bb9ee8fdce278a7c33e2bce5c14534f878",
+      "purpose_class": "commercial"
+    },
+    "licenses/wowa_iran_balochi_koroshi__citation.txt": {
+      "sha256": "84f1516162ada807b37da42ca502a69ddd1182ca2305692fa5a543af4edf1749",
+      "purpose_class": "commercial"
+    },
+    "licenses/wowa_iran_balochi_turkmen__citation.txt": {
+      "sha256": "442f71b6293c9cb774bd2c878784596a5c2bb490d7aa770e8dde5eb0bc026dc8",
+      "purpose_class": "commercial"
+    },
+    "licenses/WOWA_licence.txt": {
+      "sha256": "3e6d87ca6751376e5209dd4122da764433db3a2425e94a92520294334b64be63",
+      "purpose_class": "commercial"
+    }
+  },
+  "record_receipts": {
+    "seed_v1:bal_2ca1db4de055d9500503d5bb": {
+      "clean_sha256": "8307aa6d279aaa2e36e495f7e411c6506894c914267d291e335c4bea9ac4e6ca",
+      "split": "train",
+      "purpose_class": "commercial",
+      "source_id": "wowa_balochi_coastal",
+      "source_license": "CC-BY-4.0",
+      "human_reviewed": false,
+      "parent_group": "seed_v1:wowa_balochi_coastal:B",
+      "group_id": "final_group_7c2bd23d39574acc97bf4101"
+    },
+    "seed_v1:bal_312dabd086375d312530b0a4": {
+      "clean_sha256": "e9fbf985e9d628ef42ada80a49f0a491a6b716ab4073226435d04a1c6d68a875",
+      "split": "train",
+      "purpose_class": "commercial",
+      "source_id": "gdl_bcc_16056",
+      "source_license": "CC-BY-4.0",
+      "human_reviewed": false,
+      "parent_group": "seed_v1:gdl_bcc_16056:gdl_bcc_16056_description",
+      "group_id": "final_group_5db307b3d645c5597e2b1ee6"
+    },
+    "seed_v1:bal_4883c3c9ec7a9de81a1b0ff0": {
+      "clean_sha256": "46bb3c14f35100780235e6a8a5644b2207e2ce4b59a6659d17434a899cae44c0",
+      "split": "train",
+      "purpose_class": "commercial",
+      "source_id": "wowa_balochi_turkmen",
+      "source_license": "CC-BY-4.0",
+      "human_reviewed": false,
+      "parent_group": "seed_v1:wowa_balochi_turkmen:D",
+      "group_id": "final_group_3bbc127d0a7c120440800695"
+    },
+    "seed_v1:bal_5700024d7128287d9206ceb0": {
+      "clean_sha256": "60d88d65f65b35441152c92ea9167630b0196986486260528047ac8bbc3d9eff",
+      "split": "train",
+      "purpose_class": "commercial",
+      "source_id": "wowa_balochi_coastal",
+      "source_license": "CC-BY-4.0",
+      "human_reviewed": false,
+      "parent_group": "seed_v1:wowa_balochi_coastal:C",
+      "group_id": "final_group_ab81e7ba37f380ae428e0746"
+    },
+    "seed_v1:bal_7448a19803243f7abd57cfad": {
+      "clean_sha256": "37dc5c1856aff98cf68d321e941aeda320a54247b5904292f9faabd1cc69e68a",
+      "split": "train",
+      "purpose_class": "commercial",
+      "source_id": "gdl_bcc_16038",
+      "source_license": "CC-BY-4.0",
+      "human_reviewed": false,
+      "parent_group": "seed_v1:gdl_bcc_16038:gdl_bcc_16038_description",
+      "group_id": "final_group_334de416cc7f8aa014fc6f32"
+    },
+    "seed_v1:bal_80a3b120896fd1cdd54d7a3d": {
+      "clean_sha256": "bcc6fc29b2d936957237992a3045a3086e728b05aa026a87ce0e07210b53769e",
+      "split": "train",
+      "purpose_class": "commercial",
+      "source_id": "gdl_bcc_16052",
+      "source_license": "CC-BY-4.0",
+      "human_reviewed": false,
+      "parent_group": "seed_v1:gdl_bcc_16052:gdl_bcc_16052_description",
+      "group_id": "final_group_9e35e5eaabce3cc4c3b6f671"
+    },
+    "seed_v1:bal_9476f32eec926911004e0ebf": {
+      "clean_sha256": "75ad23c8fd9cb9aa7b89327063cd82ca1d7a0f03b28b4e49db70fae0317804a7",
+      "split": "train",
+      "purpose_class": "commercial",
+      "source_id": "gdl_bcc_16054",
+      "source_license": "CC-BY-4.0",
+      "human_reviewed": false,
+      "parent_group": "seed_v1:gdl_bcc_16054:gdl_bcc_16054_description",
+      "group_id": "final_group_b15b72f89708177ea0054160"
+    },
+    "seed_v1:bal_9651f8845afd293735663f83": {
+      "clean_sha256": "2ad5f5bb3f7d4b545a3c56bd87c427dc1bd2a8d6c28ebd9e7d398539059eada0",
+      "split": "train",
+      "purpose_class": "commercial",
+      "source_id": "wowa_balochi_koroshi",
+      "source_license": "CC-BY-4.0",
+      "human_reviewed": false,
+      "parent_group": "seed_v1:wowa_balochi_koroshi:B",
+      "group_id": "final_group_1c75d3d16c000f73d253f6fe"
+    },
+    "seed_v1:bal_9f9fefa28ed93a3d95ae4992": {
+      "clean_sha256": "97722ae3c9e6a0094cf0fd6344a674d986d2ed16544b8ede1d8f8f56f5d9ab92",
+      "split": "train",
+      "purpose_class": "commercial",
+      "source_id": "wowa_balochi_turkmen",
+      "source_license": "CC-BY-4.0",
+      "human_reviewed": false,
+      "parent_group": "seed_v1:wowa_balochi_turkmen:A",
+      "group_id": "final_group_adad49c29bf4cd3e1fda680f"
+    },
+    "seed_v1:bal_ac8857e0ec19385a45658c26": {
+      "clean_sha256": "e8b01e6bf12c034f71a434aef851a056e35f16fe75144f79b4bade16922f9ed9",
+      "split": "train",
+      "purpose_class": "commercial",
+      "source_id": "wowa_balochi_turkmen",
+      "source_license": "CC-BY-4.0",
+      "human_reviewed": false,
+      "parent_group": "seed_v1:wowa_balochi_turkmen:C",
+      "group_id": "final_group_bf162fae2f270627ff841084"
+    },
+    "seed_v1:bal_b3ba9eb462f5adf4eaee13c3": {
+      "clean_sha256": "05159c228018dd263fea0c261b8ceaa60f3cf1eaf70aad9fae301aa379e89e11",
+      "split": "train",
+      "purpose_class": "commercial",
+      "source_id": "gdl_bcc_16046",
+      "source_license": "CC-BY-4.0",
+      "human_reviewed": false,
+      "parent_group": "seed_v1:gdl_bcc_16046:gdl_bcc_16046_description",
+      "group_id": "final_group_73c7ba49f19c43c8a75fa9c4"
+    },
+    "seed_v1:bal_cb48fcbe182b2ad5e9b0cb64": {
+      "clean_sha256": "0fb7ac42d6d102f5933c2624b302c11b897234f115583ee88ecd8f4e8f4330fc",
+      "split": "train",
+      "purpose_class": "commercial",
+      "source_id": "gdl_bcc_16044",
+      "source_license": "CC-BY-4.0",
+      "human_reviewed": false,
+      "parent_group": "seed_v1:gdl_bcc_16044:gdl_bcc_16044_description",
+      "group_id": "final_group_a8b1eb1f25e319dfdf4ebe9b"
+    },
+    "seed_v1:bal_ef5a48d27ac32de4cc2b44b7": {
+      "clean_sha256": "b2fc5e18d20937d3e516d22601222d8d96319308928740727f3a53010f03183e",
+      "split": "train",
+      "purpose_class": "commercial",
+      "source_id": "wowa_balochi_koroshi",
+      "source_license": "CC-BY-4.0",
+      "human_reviewed": false,
+      "parent_group": "seed_v1:wowa_balochi_koroshi:A",
+      "group_id": "final_group_1c75d3d16c000f73d253f6fe"
+    },
+    "seed_v1:bal_fa70d47dd3c46a72bdf27a15": {
+      "clean_sha256": "ad98ca004f3c3b2ec320c820b2366308eb0a828e005a59661b8ab593f2fcdfc7",
+      "split": "train",
+      "purpose_class": "commercial",
+      "source_id": "wowa_balochi_turkmen",
+      "source_license": "CC-BY-4.0",
+      "human_reviewed": false,
+      "parent_group": "seed_v1:wowa_balochi_turkmen:B",
+      "group_id": "final_group_8f0abc6f4c91f2af06e592ae"
+    },
+    "commercial_additions_v1:alas_balochi_latin": {
+      "clean_sha256": "46d9c8020313b5f3450f298fc8bee5e9208e825fc32b979c926c2b5c90633609",
+      "split": "train",
+      "purpose_class": "commercial",
+      "source_id": "orientalia_alas",
+      "source_license": "CC-BY-4.0",
+      "human_reviewed": false,
+      "parent_group": "commercial_additions_v1:alas_balochi_latin",
+      "group_id": "final_group_ff0f78de67aaa6c14a452286"
+    },
+    "commercial_additions_v1:beyond_wall_balochi_latin": {
+      "clean_sha256": "8eb56f7bc5be80e2848aa599ff178c2538b1a6a960dbaa91a0321c1740137f0f",
+      "split": "train",
+      "purpose_class": "commercial",
+      "source_id": "orientalia_beyond_wall",
+      "source_license": "CC-BY-4.0",
+      "human_reviewed": false,
+      "parent_group": "commercial_additions_v1:beyond_wall_balochi_latin",
+      "group_id": "final_group_7cca387be545a2fd59b40ac7"
+    },
+    "seed_v1:bal_fa09bb734d51c8f2d671044e": {
+      "clean_sha256": "f5627818d0e6c10c715cc9870bbfb70123b1498a2cabf1e04363dc320591e25c",
+      "split": "validation",
+      "purpose_class": "commercial",
+      "source_id": "wowa_balochi_coastal",
+      "source_license": "CC-BY-4.0",
+      "human_reviewed": false,
+      "parent_group": "seed_v1:wowa_balochi_coastal:A",
+      "group_id": "final_group_2ac7fc1da8a71e65f94c7782"
+    },
+    "academy_nc_v1:academy_6c157444d1a6484592240471": {
+      "clean_sha256": "797a9a39e86c2581392220c8cfeffb068f707377c02c8bb5ca01da0ca2cf9a9e",
+      "split": "test",
+      "purpose_class": "noncommercial",
+      "source_id": "balochi_academy_mdc_2026",
+      "source_license": "CC-BY-NC-SA-4.0",
+      "human_reviewed": false,
+      "parent_group": "academy_nc_v1:BalochiDataset-11-BalochiPoetry-48941.txt",
+      "group_id": "final_group_a45dcbd9448494ed947b0617"
+    },
+    "academy_nc_v1:academy_a5eac29fd12fd950048fc84b": {
+      "clean_sha256": "0a1f67396c3d70dca6df005158ce833cf242f222b0feb40af0a5e62ac1c7be15",
+      "split": "test",
+      "purpose_class": "noncommercial",
+      "source_id": "balochi_academy_mdc_2026",
+      "source_license": "CC-BY-NC-SA-4.0",
+      "human_reviewed": false,
+      "parent_group": "academy_nc_v1:BalochiDataset-11-BalochiPoetry-48941.txt",
+      "group_id": "final_group_a45dcbd9448494ed947b0617"
+    },
+    "academy_nc_v1:academy_ba7f0f1ac08fad6f611017ce": {
+      "clean_sha256": "86c2f8ca41ab614d111f62f215f07cb000022b59bc9523da005291f686dbe488",
+      "split": "test",
+      "purpose_class": "noncommercial",
+      "source_id": "balochi_academy_mdc_2026",
+      "source_license": "CC-BY-NC-SA-4.0",
+      "human_reviewed": false,
+      "parent_group": "academy_nc_v1:BalochiDataset-11-BalochiPoetry-48941.txt",
+      "group_id": "final_group_a45dcbd9448494ed947b0617"
+    },
+    "academy_nc_v1:academy_e4c64178859a8e294c93071e": {
+      "clean_sha256": "d0734811b1848c014b903b84a270507e5652531eb39356c22c3eb442685fdd12",
+      "split": "test",
+      "purpose_class": "noncommercial",
+      "source_id": "balochi_academy_mdc_2026",
+      "source_license": "CC-BY-NC-SA-4.0",
+      "human_reviewed": false,
+      "parent_group": "academy_nc_v1:BalochiDataset-11-BalochiPoetry-48941.txt",
+      "group_id": "final_group_a45dcbd9448494ed947b0617"
+    },
+    "academy_nc_v1:academy_f7ad41c59c6f1c6284800e2b": {
+      "clean_sha256": "52bdba0d5abbd1931bf87f61d05d45ab2c3dad5863583fffbcef5a380fabd687",
+      "split": "test",
+      "purpose_class": "noncommercial",
+      "source_id": "balochi_academy_mdc_2026",
+      "source_license": "CC-BY-NC-SA-4.0",
+      "human_reviewed": false,
+      "parent_group": "academy_nc_v1:BalochiDataset-11-BalochiPoetry-48941.txt",
+      "group_id": "final_group_a45dcbd9448494ed947b0617"
+    },
+    "academy_nc_v1:academy_0606b032547623aed66b0985": {
+      "clean_sha256": "b050257ac79723a4d17bea398689be23ce9510dc89aa958ec1df4abc5128b3cb",
+      "split": "train",
+      "purpose_class": "noncommercial",
+      "source_id": "balochi_academy_mdc_2026",
+      "source_license": "CC-BY-NC-SA-4.0",
+      "human_reviewed": false,
+      "parent_group": "academy_nc_v1:BalochiDataset-6-BalochiArticles-124241.txt",
+      "group_id": "final_group_e8f6945156be043303bd990a"
+    },
+    "academy_nc_v1:academy_06916fe8a910e41fc884f68f": {
+      "clean_sha256": "533734ae47b98914aa4ef5c64553982593ffc86e643c6d54fdefca12a4ff37c9",
+      "split": "train",
+      "purpose_class": "noncommercial",
+      "source_id": "balochi_academy_mdc_2026",
+      "source_license": "CC-BY-NC-SA-4.0",
+      "human_reviewed": false,
+      "parent_group": "academy_nc_v1:BalochiDataset-7-BalochiArticlesonoldStories-191370.txt",
+      "group_id": "final_group_4c3d3920ddf593caf376438d"
+    },
+    "academy_nc_v1:academy_06996cfecec036db0284f35e": {
+      "clean_sha256": "8f4c0019e8872b4d17cccdd2fdb9d9d2bd365b1472879998826ed1c2a3eeabaf",
+      "split": "train",
+      "purpose_class": "noncommercial",
+      "source_id": "balochi_academy_mdc_2026",
+      "source_license": "CC-BY-NC-SA-4.0",
+      "human_reviewed": false,
+      "parent_group": "academy_nc_v1:BalochiDataset-6-BalochiArticles-124241.txt",
+      "group_id": "final_group_e8f6945156be043303bd990a"
+    },
+    "academy_nc_v1:academy_09aa459a8c8f336b247e235a": {
+      "clean_sha256": "01487b7a9002621926bc2bda1faa1bbab4299452b63bc0ed32ef6560c9b46b06",
+      "split": "train",
+      "purpose_class": "noncommercial",
+      "source_id": "balochi_academy_mdc_2026",
+      "source_license": "CC-BY-NC-SA-4.0",
+      "human_reviewed": false,
+      "parent_group": "academy_nc_v1:BalochiDataset-3-Folktales-511222.txt",
+      "group_id": "final_group_7ffd2e848e0062925dd6ec18"
+    },
+    "academy_nc_v1:academy_0eca1049a49d02c79f0b4806": {
+      "clean_sha256": "37ddc9ba3b78c2ba13674a74abe07af3ea3696294bad030bd67e68b97f8c3c4f",
+      "split": "train",
+      "purpose_class": "noncommercial",
+      "source_id": "balochi_academy_mdc_2026",
+      "source_license": "CC-BY-NC-SA-4.0",
+      "human_reviewed": false,
+      "parent_group": "academy_nc_v1:BalochiDataset-12-BalochiPoetry-50186.txt",
+      "group_id": "final_group_0f6372eba7af04f734eb59fe"
+    },
+    "academy_nc_v1:academy_0f5684d6644dc7c7a2aa51a6": {
+      "clean_sha256": "d73ca422af4480d99b181becb3a475d8c7cffb6305bb8e1183db8a0094708bc2",
+      "split": "train",
+      "purpose_class": "noncommercial",
+      "source_id": "balochi_academy_mdc_2026",
+      "source_license": "CC-BY-NC-SA-4.0",
+      "human_reviewed": false,
+      "parent_group": "academy_nc_v1:BalochiDataset-3-Folktales-511222.txt",
+      "group_id": "final_group_7ffd2e848e0062925dd6ec18"
+    },
+    "academy_nc_v1:academy_0f731084a15071a8bcb11b06": {
+      "clean_sha256": "a6a112720d92713431e4f00f8f2dec7672b07c69c5092a9b870ec75cef22232b",
+      "split": "train",
+      "purpose_class": "noncommercial",
+      "source_id": "balochi_academy_mdc_2026",
+      "source_license": "CC-BY-NC-SA-4.0",
+      "human_reviewed": false,
+      "parent_group": "academy_nc_v1:BalochiDataset-3-Folktales-511222.txt",
+      "group_id": "final_group_7ffd2e848e0062925dd6ec18"
+    },
+    "academy_nc_v1:academy_124d9c6206929c8ac48ace62": {
+      "clean_sha256": "adf1d78f3cecaf76d743f7d3f765dd0de9b2e6e7101560af65b296354a4d07d9",
+      "split": "train",
+      "purpose_class": "noncommercial",
+      "source_id": "balochi_academy_mdc_2026",
+      "source_license": "CC-BY-NC-SA-4.0",
+      "human_reviewed": false,
+      "parent_group": "academy_nc_v1:BalochiDataset-3-Folktales-511222.txt",
+      "group_id": "final_group_7ffd2e848e0062925dd6ec18"
+    },
+    "academy_nc_v1:academy_12f7261df03f6df2d11ef127": {
+      "clean_sha256": "1430c25ac0aa2a04fea1b2151726678b7a976532040d205b7fe0df4a2e07f958",
+      "split": "train",
+      "purpose_class": "noncommercial",
+      "source_id": "balochi_academy_mdc_2026",
+      "source_license": "CC-BY-NC-SA-4.0",
+      "human_reviewed": false,
+      "parent_group": "academy_nc_v1:BalochiDataset-7-BalochiArticlesonoldStories-191370.txt",
+      "group_id": "final_group_4c3d3920ddf593caf376438d"
+    },
+    "academy_nc_v1:academy_1670c3a889a368b20f28808f": {
+      "clean_sha256": "db0cbb387377a6bbe49b3e231f2a967fabfaa5cab50d7410e96aba4984d2a5d4",
+      "split": "train",
+      "purpose_class": "noncommercial",
+      "source_id": "balochi_academy_mdc_2026",
+      "source_license": "CC-BY-NC-SA-4.0",
+      "human_reviewed": false,
+      "parent_group": "academy_nc_v1:BalochiDataset-13-BalochiPoetry-65840.txt",
+      "group_id": "final_group_bad061c3b7718cb9421e9a00"
+    },
+    "academy_nc_v1:academy_17f32541156889ebe3219c56": {
+      "clean_sha256": "c9ea7065de63dd4ab6db1f6ee873aacd108d9b11d768d46fbcbbb8ae6302a3fd",
+      "split": "train",
+      "purpose_class": "noncommercial",
+      "source_id": "balochi_academy_mdc_2026",
+      "source_license": "CC-BY-NC-SA-4.0",
+      "human_reviewed": false,
+      "parent_group": "academy_nc_v1:BalochiDataset-3-Folktales-511222.txt",
+      "group_id": "final_group_7ffd2e848e0062925dd6ec18"
+    },
+    "academy_nc_v1:academy_1b0dfe2ae53d959ddae4f186": {
+      "clean_sha256": "31d219a0f9450056fb90e48dd2629b80ef6d8cb18f68601f366700acb03a85dc",
+      "split": "train",
+      "purpose_class": "noncommercial",
+      "source_id": "balochi_academy_mdc_2026",
+      "source_license": "CC-BY-NC-SA-4.0",
+      "human_reviewed": false,
+      "parent_group": "academy_nc_v1:BalochiDataset-3-Folktales-511222.txt",
+      "group_id": "final_group_7ffd2e848e0062925dd6ec18"
+    },
+    "academy_nc_v1:academy_1b10dc43b3131055749016bf": {
+      "clean_sha256": "bcb2899e75c31120e73b974710ab5d118693f0a3e4690e3bb6324373f1647a4e",
+      "split": "train",
+      "purpose_class": "noncommercial",
+      "source_id": "balochi_academy_mdc_2026",
+      "source_license": "CC-BY-NC-SA-4.0",
+      "human_reviewed": false,
+      "parent_group": "academy_nc_v1:BalochiDataset-7-BalochiArticlesonoldStories-191370.txt",
+      "group_id": "final_group_4c3d3920ddf593caf376438d"
+    },
+    "academy_nc_v1:academy_209917567e6f67bf944a8c97": {
+      "clean_sha256": "40216e1f921330990003076563f7b4534d83e254055cc4e52486dbe01161ab59",
+      "split": "train",
+      "purpose_class": "noncommercial",
+      "source_id": "balochi_academy_mdc_2026",
+      "source_license": "CC-BY-NC-SA-4.0",
+      "human_reviewed": false,
+      "parent_group": "academy_nc_v1:BalochiDataset-3-Folktales-511222.txt",
+      "group_id": "final_group_7ffd2e848e0062925dd6ec18"
+    },
+    "academy_nc_v1:academy_212b1284176f6b6b9cf1ad9f": {
+      "clean_sha256": "0bcf776e919bd58b860599c89207460f2a9b2d21ab8c21fb36c9cee1e47c98f0",
+      "split": "train",
+      "purpose_class": "noncommercial",
+      "source_id": "balochi_academy_mdc_2026",
+      "source_license": "CC-BY-NC-SA-4.0",
+      "human_reviewed": false,
+      "parent_group": "academy_nc_v1:BalochiDataset-3-Folktales-511222.txt",
+      "group_id": "final_group_7ffd2e848e0062925dd6ec18"
+    },
+    "academy_nc_v1:academy_220b6e5c38acbda3b8f185cc": {
+      "clean_sha256": "7a7034af764b363c3467f1eadd59c34a974b40cc19594efae09d205e7bef60e2",
+      "split": "train",
+      "purpose_class": "noncommercial",
+      "source_id": "balochi_academy_mdc_2026",
+      "source_license": "CC-BY-NC-SA-4.0",
+      "human_reviewed": false,
+      "parent_group": "academy_nc_v1:BalochiDataset-3-Folktales-511222.txt",
+      "group_id": "final_group_7ffd2e848e0062925dd6ec18"
+    },
+    "academy_nc_v1:academy_22196385aa7c741f8f169460": {
+      "clean_sha256": "b8137b633f03f36cd071fca50d0b64f90414cabc979e944898aecd92b42b3120",
+      "split": "train",
+      "purpose_class": "noncommercial",
+      "source_id": "balochi_academy_mdc_2026",
+      "source_license": "CC-BY-NC-SA-4.0",
+      "human_reviewed": false,
+      "parent_group": "academy_nc_v1:BalochiDataset-14-BalochiDramaarticles-217822.txt",
+      "group_id": "final_group_c01be4279a9a137bd24b3781"
+    },
+    "academy_nc_v1:academy_25e147043732c123889056ee": {
+      "clean_sha256": "6137238e69e1d4f266bc51b871927568788ceab45b4e41127b3119af3da609c7",
+      "split": "train",
+      "purpose_class": "noncommercial",
+      "source_id": "balochi_academy_mdc_2026",
+      "source_license": "CC-BY-NC-SA-4.0",
+      "human_reviewed": false,
+      "parent_group": "academy_nc_v1:BalochiDataset-14-BalochiDramaarticles-217822.txt",
+      "group_id": "final_group_c01be4279a9a137bd24b3781"
+    },
+    "academy_nc_v1:academy_26a4534b9d7ba3b02e2dd97d": {
+      "clean_sha256": "e778d520c3b23cd2b5c9aec46974aaa1b5ee26f394397acbeede99677ee413d7",
+      "split": "train",
+      "purpose_class": "noncommercial",
+      "source_id": "balochi_academy_mdc_2026",
+      "source_license": "CC-BY-NC-SA-4.0",
+      "human_reviewed": false,
+      "parent_group": "academy_nc_v1:BalochiDataset-7-BalochiArticlesonoldStories-191370.txt",
+      "group_id": "final_group_4c3d3920ddf593caf376438d"
+    },
+    "academy_nc_v1:academy_281ffd3623cbe0c2d9ef19f9": {
+      "clean_sha256": "852876559745d242acbaf0d00eeda4dd8a021a10db6ed253875568769977d6ed",
+      "split": "train",
+      "purpose_class": "noncommercial",
+      "source_id": "balochi_academy_mdc_2026",
+      "source_license": "CC-BY-NC-SA-4.0",
+      "human_reviewed": false,
+      "parent_group": "academy_nc_v1:BalochiDataset-7-BalochiArticlesonoldStories-191370.txt",
+      "group_id": "final_group_4c3d3920ddf593caf376438d"
+    },
+    "academy_nc_v1:academy_2a78b5b8e47ad6ed8afe0798": {
+      "clean_sha256": "8558a7c890b564f4b7e6488daa2b0d5bd73f7a1eeb8a750438081a9d2534b8d2",
+      "split": "train",
+      "purpose_class": "noncommercial",
+      "source_id": "balochi_academy_mdc_2026",
+      "source_license": "CC-BY-NC-SA-4.0",
+      "human_reviewed": false,
+      "parent_group": "academy_nc_v1:BalochiDataset-3-Folktales-511222.txt",
+      "group_id": "final_group_7ffd2e848e0062925dd6ec18"
+    },
+    "academy_nc_v1:academy_2a86e29d2038d240f820dfea": {
+      "clean_sha256": "9adc14295d040f472081ba395318f4bd4343b624e8e85e3fdbbcbf783a337ea0",
+      "split": "train",
+      "purpose_class": "noncommercial",
+      "source_id": "balochi_academy_mdc_2026",
+      "source_license": "CC-BY-NC-SA-4.0",
+      "human_reviewed": false,
+      "parent_group": "academy_nc_v1:BalochiDataset-3-Folktales-511222.txt",
+      "group_id": "final_group_7ffd2e848e0062925dd6ec18"
+    },
+    "academy_nc_v1:academy_2ad3f9a843e42a03d49a3a0d": {
+      "clean_sha256": "adaade9f325f30d74a9ce5098b43adbe295c447ae670cc21b166b763a8f370ef",
+      "split": "train",
+      "purpose_class": "noncommercial",
+      "source_id": "balochi_academy_mdc_2026",
+      "source_license": "CC-BY-NC-SA-4.0",
+      "human_reviewed": false,
+      "parent_group": "academy_nc_v1:BalochiDataset-6-BalochiArticles-124241.txt",
+      "group_id": "final_group_e8f6945156be043303bd990a"
+    },
+    "academy_nc_v1:academy_2c2de9091bbbd9a03038ed78": {
+      "clean_sha256": "ed95bc174ca15a62220458185020a26e3322b9a4df695e12561527e23ebce6a8",
+      "split": "train",
+      "purpose_class": "noncommercial",
+      "source_id": "balochi_academy_mdc_2026",
+      "source_license": "CC-BY-NC-SA-4.0",
+      "human_reviewed": false,
+      "parent_group": "academy_nc_v1:BalochiDataset-7-BalochiArticlesonoldStories-191370.txt",
+      "group_id": "final_group_4c3d3920ddf593caf376438d"
+    },
+    "academy_nc_v1:academy_2e62d7d9dee90f0f778fb30e": {
+      "clean_sha256": "bfdc96b70c3e93639737c0f578ae872957e43824773033f812daf9e9e7adb037",
+      "split": "train",
+      "purpose_class": "noncommercial",
+      "source_id": "balochi_academy_mdc_2026",
+      "source_license": "CC-BY-NC-SA-4.0",
+      "human_reviewed": false,
+      "parent_group": "academy_nc_v1:BalochiDataset-14-BalochiDramaarticles-217822.txt",
+      "group_id": "final_group_c01be4279a9a137bd24b3781"
+    },
+    "academy_nc_v1:academy_2f9fbcd245d694ff6ea5cb76": {
+      "clean_sha256": "168ddb979f7ce6e4485ea3bc5c56c140db0ad55c04a872dfa140926fdf729655",
+      "split": "train",
+      "purpose_class": "noncommercial",
+      "source_id": "balochi_academy_mdc_2026",
+      "source_license": "CC-BY-NC-SA-4.0",
+      "human_reviewed": false,
+      "parent_group": "academy_nc_v1:BalochiDataset-14-BalochiDramaarticles-217822.txt",
+      "group_id": "final_group_c01be4279a9a137bd24b3781"
+    },
+    "academy_nc_v1:academy_2fb8fb347df8053b6a336309": {
+      "clean_sha256": "bf1465b57acdbd357b712530de9b07a787581255ac0b905126b536ce77fbf68b",
+      "split": "train",
+      "purpose_class": "noncommercial",
+      "source_id": "balochi_academy_mdc_2026",
+      "source_license": "CC-BY-NC-SA-4.0",
+      "human_reviewed": false,
+      "parent_group": "academy_nc_v1:BalochiDataset-3-Folktales-511222.txt",
+      "group_id": "final_group_7ffd2e848e0062925dd6ec18"
+    },
+    "academy_nc_v1:academy_328316da3e6e50f5a8e3253f": {
+      "clean_sha256": "5c9c5e79b71c52e63b17ecb2d9363a0f45ea47d40dabcb4ff1175133794456bf",
+      "split": "train",
+      "purpose_class": "noncommercial",
+      "source_id": "balochi_academy_mdc_2026",
+      "source_license": "CC-BY-NC-SA-4.0",
+      "human_reviewed": false,
+      "parent_group": "academy_nc_v1:BalochiDataset-6-BalochiArticles-124241.txt",
+      "group_id": "final_group_e8f6945156be043303bd990a"
+    },
+    "academy_nc_v1:academy_3338dbb9ccf3112117cda592": {
+      "clean_sha256": "42bedeef2abe2b439f1acf84e5f9eb75f7e77933b85332d33ab55db944c70dfe",
+      "split": "train",
+      "purpose_class": "noncommercial",
+      "source_id": "balochi_academy_mdc_2026",
+      "source_license": "CC-BY-NC-SA-4.0",
+      "human_reviewed": false,
+      "parent_group": "academy_nc_v1:BalochiDataset-14-BalochiDramaarticles-217822.txt",
+      "group_id": "final_group_c01be4279a9a137bd24b3781"
+    },
+    "academy_nc_v1:academy_34ed0322c6dbd2d659863d67": {
+      "clean_sha256": "3caeca1ae4bc8ceec69f8f45216f139dcfd24e339f2bb0d4d41bde8aaf2d2401",
+      "split": "train",
+      "purpose_class": "noncommercial",
+      "source_id": "balochi_academy_mdc_2026",
+      "source_license": "CC-BY-NC-SA-4.0",
+      "human_reviewed": false,
+      "parent_group": "academy_nc_v1:BalochiDataset-14-BalochiDramaarticles-217822.txt",
+      "group_id": "final_group_c01be4279a9a137bd24b3781"
+    },
+    "academy_nc_v1:academy_37b159d5be3fa40a8bdc2a49": {
+      "clean_sha256": "1eea6f587ad2d9c7956c60b37e1752b14c159e70478963a83e207552f435daed",
+      "split": "train",
+      "purpose_class": "noncommercial",
+      "source_id": "balochi_academy_mdc_2026",
+      "source_license": "CC-BY-NC-SA-4.0",
+      "human_reviewed": false,
+      "parent_group": "academy_nc_v1:BalochiDataset-13-BalochiPoetry-65840.txt",
+      "group_id": "final_group_bad061c3b7718cb9421e9a00"
+    },
+    "academy_nc_v1:academy_3c47b8c0dd0e003856ad8231": {
+      "clean_sha256": "8c2b8fdd7e80e903bac320008a687bb21c9effba0ecbd05a91b41e4d4a676360",
+      "split": "train",
+      "purpose_class": "noncommercial",
+      "source_id": "balochi_academy_mdc_2026",
+      "source_license": "CC-BY-NC-SA-4.0",
+      "human_reviewed": false,
+      "parent_group": "academy_nc_v1:BalochiDataset-12-BalochiPoetry-50186.txt",
+      "group_id": "final_group_0f6372eba7af04f734eb59fe"
+    },
+    "academy_nc_v1:academy_3e1a861fa0410d5c6e1a1d1a": {
+      "clean_sha256": "8a8e3e65adeebffd99b59f2cde07bc93e84a1259b338011eedd71990c401f6d7",
+      "split": "train",
+      "purpose_class": "noncommercial",
+      "source_id": "balochi_academy_mdc_2026",
+      "source_license": "CC-BY-NC-SA-4.0",
+      "human_reviewed": false,
+      "parent_group": "academy_nc_v1:BalochiDataset-3-Folktales-511222.txt",
+      "group_id": "final_group_7ffd2e848e0062925dd6ec18"
+    },
+    "academy_nc_v1:academy_3e3c6b7831df61bcc1047450": {
+      "clean_sha256": "1c5da2f7591fba697c801809d67f5ef5d605c85b975f324f0b5ccecd22a0fce3",
+      "split": "train",
+      "purpose_class": "noncommercial",
+      "source_id": "balochi_academy_mdc_2026",
+      "source_license": "CC-BY-NC-SA-4.0",
+      "human_reviewed": false,
+      "parent_group": "academy_nc_v1:BalochiDataset-14-BalochiDramaarticles-217822.txt",
+      "group_id": "final_group_c01be4279a9a137bd24b3781"
+    },
+    "academy_nc_v1:academy_3f31f51f957fe614532f81ca": {
+      "clean_sha256": "1c18d37004a4a0059878091a48aaa8910bb39fdde24af2c577597225d81a0439",
+      "split": "train",
+      "purpose_class": "noncommercial",
+      "source_id": "balochi_academy_mdc_2026",
+      "source_license": "CC-BY-NC-SA-4.0",
+      "human_reviewed": false,
+      "parent_group": "academy_nc_v1:BalochiDataset-6-BalochiArticles-124241.txt",
+      "group_id": "final_group_e8f6945156be043303bd990a"
+    },
+    "academy_nc_v1:academy_42e42e4c093206be5e43bff1": {
+      "clean_sha256": "66f3a10e44e8546f77e9a8d3f0283561eca344aeb592f4741e7c570b4122c251",
+      "split": "train",
+      "purpose_class": "noncommercial",
+      "source_id": "balochi_academy_mdc_2026",
+      "source_license": "CC-BY-NC-SA-4.0",
+      "human_reviewed": false,
+      "parent_group": "academy_nc_v1:BalochiDataset-14-BalochiDramaarticles-217822.txt",
+      "group_id": "final_group_c01be4279a9a137bd24b3781"
+    },
+    "academy_nc_v1:academy_42fd09c4470732f0fe28a89e": {
+      "clean_sha256": "5d5c8b5869a55aff5ad2386f2f9164a1c349ac76ae0270c1bc9445138a1a3f68",
+      "split": "train",
+      "purpose_class": "noncommercial",
+      "source_id": "balochi_academy_mdc_2026",
+      "source_license": "CC-BY-NC-SA-4.0",
+      "human_reviewed": false,
+      "parent_group": "academy_nc_v1:BalochiDataset-3-Folktales-511222.txt",
+      "group_id": "final_group_7ffd2e848e0062925dd6ec18"
+    },
+    "academy_nc_v1:academy_48faa40288aad785b6471f19": {
+      "clean_sha256": "fa53cc5ce9f61eda2da7522e241cd0a27105a44dbfd7fa7192275d7c237837aa",
+      "split": "train",
+      "purpose_class": "noncommercial",
+      "source_id": "balochi_academy_mdc_2026",
+      "source_license": "CC-BY-NC-SA-4.0",
+      "human_reviewed": false,
+      "parent_group": "academy_nc_v1:BalochiDataset-3-Folktales-511222.txt",
+      "group_id": "final_group_7ffd2e848e0062925dd6ec18"
+    },
+    "academy_nc_v1:academy_4a2926ffe0556644eb7de724": {
+      "clean_sha256": "9bf431e721e0e4d69ccc1c6a3c0ba84d5ef2399fdc48ff9ed225b9ccc127e266",
+      "split": "train",
+      "purpose_class": "noncommercial",
+      "source_id": "balochi_academy_mdc_2026",
+      "source_license": "CC-BY-NC-SA-4.0",
+      "human_reviewed": false,
+      "parent_group": "academy_nc_v1:BalochiDataset-6-BalochiArticles-124241.txt",
+      "group_id": "final_group_e8f6945156be043303bd990a"
+    },
+    "academy_nc_v1:academy_500f13d8f90c957116c233ef": {
+      "clean_sha256": "b332585eeb851c884b414e7cf54a2a9839f6ae933e1c5f679dbb710a3acbc3fc",
+      "split": "train",
+      "purpose_class": "noncommercial",
+      "source_id": "balochi_academy_mdc_2026",
+      "source_license": "CC-BY-NC-SA-4.0",
+      "human_reviewed": false,
+      "parent_group": "academy_nc_v1:BalochiDataset-3-Folktales-511222.txt",
+      "group_id": "final_group_7ffd2e848e0062925dd6ec18"
+    },
+    "academy_nc_v1:academy_58400c1f4e64edb50b1733c1": {
+      "clean_sha256": "ccb1cbc6b117f69167f6f4afc5a0ec2209e1b82389542140a3296ee4bb81542d",
+      "split": "train",
+      "purpose_class": "noncommercial",
+      "source_id": "balochi_academy_mdc_2026",
+      "source_license": "CC-BY-NC-SA-4.0",
+      "human_reviewed": false,
+      "parent_group": "academy_nc_v1:BalochiDataset-14-BalochiDramaarticles-217822.txt",
+      "group_id": "final_group_c01be4279a9a137bd24b3781"
+    },
+    "academy_nc_v1:academy_59d497d9c90a5936aa5e84a8": {
+      "clean_sha256": "1104120b18ac91c79f620cb74c25ce885b8e0d9466d427cb9225dd62e21ad5b4",
+      "split": "train",
+      "purpose_class": "noncommercial",
+      "source_id": "balochi_academy_mdc_2026",
+      "source_license": "CC-BY-NC-SA-4.0",
+      "human_reviewed": false,
+      "parent_group": "academy_nc_v1:BalochiDataset-13-BalochiPoetry-65840.txt",
+      "group_id": "final_group_bad061c3b7718cb9421e9a00"
+    },
+    "academy_nc_v1:academy_59f313962de86fdc6686ed12": {
+      "clean_sha256": "d5f9a7261195ea0287d83f12936930adea45d1618aeb087c7efc28a91ad24263",
+      "split": "train",
+      "purpose_class": "noncommercial",
+      "source_id": "balochi_academy_mdc_2026",
+      "source_license": "CC-BY-NC-SA-4.0",
+      "human_reviewed": false,
+      "parent_group": "academy_nc_v1:BalochiDataset-12-BalochiPoetry-50186.txt",
+      "group_id": "final_group_0f6372eba7af04f734eb59fe"
+    },
+    "academy_nc_v1:academy_5a07d2e96645264e1208d1eb": {
+      "clean_sha256": "e1e46fd38ce4aa9bd39f10b6a1bca67a7d59bb9d549bba72900f40c59a32dd30",
+      "split": "train",
+      "purpose_class": "noncommercial",
+      "source_id": "balochi_academy_mdc_2026",
+      "source_license": "CC-BY-NC-SA-4.0",
+      "human_reviewed": false,
+      "parent_group": "academy_nc_v1:BalochiDataset-6-BalochiArticles-124241.txt",
+      "group_id": "final_group_e8f6945156be043303bd990a"
+    },
+    "academy_nc_v1:academy_5c1ffdf3d6f9ca5699674c09": {
+      "clean_sha256": "31c7197f59b22288f110c8049655661096e490de2846e4439af0fa00e2dc0895",
+      "split": "train",
+      "purpose_class": "noncommercial",
+      "source_id": "balochi_academy_mdc_2026",
+      "source_license": "CC-BY-NC-SA-4.0",
+      "human_reviewed": false,
+      "parent_group": "academy_nc_v1:BalochiDataset-14-BalochiDramaarticles-217822.txt",
+      "group_id": "final_group_c01be4279a9a137bd24b3781"
+    },
+    "academy_nc_v1:academy_67afd6477ca944d9c5087cfb": {
+      "clean_sha256": "f0a8090ae62f6624d7407e1ed3d91e8dc55773e0a5430e2a136525a02ebddc05",
+      "split": "train",
+      "purpose_class": "noncommercial",
+      "source_id": "balochi_academy_mdc_2026",
+      "source_license": "CC-BY-NC-SA-4.0",
+      "human_reviewed": false,
+      "parent_group": "academy_nc_v1:BalochiDataset-3-Folktales-511222.txt",
+      "group_id": "final_group_7ffd2e848e0062925dd6ec18"
+    },
+    "academy_nc_v1:academy_6a9b050f5e54534e56465d28": {
+      "clean_sha256": "7ca8385b191f3c06922965a4d201b97f0eb0bc947cde056505cc1c10c259068f",
+      "split": "train",
+      "purpose_class": "noncommercial",
+      "source_id": "balochi_academy_mdc_2026",
+      "source_license": "CC-BY-NC-SA-4.0",
+      "human_reviewed": false,
+      "parent_group": "academy_nc_v1:BalochiDataset-3-Folktales-511222.txt",
+      "group_id": "final_group_7ffd2e848e0062925dd6ec18"
+    },
+    "academy_nc_v1:academy_6d7059eb633c94b46ad73a36": {
+      "clean_sha256": "1ae0624dd1a355078908539f880c1d46a1f2bb180297ce4dc7aaca7563f98bbf",
+      "split": "train",
+      "purpose_class": "noncommercial",
+      "source_id": "balochi_academy_mdc_2026",
+      "source_license": "CC-BY-NC-SA-4.0",
+      "human_reviewed": false,
+      "parent_group": "academy_nc_v1:BalochiDataset-14-BalochiDramaarticles-217822.txt",
+      "group_id": "final_group_c01be4279a9a137bd24b3781"
+    },
+    "academy_nc_v1:academy_6f5cdc441a53bf821f462a20": {
+      "clean_sha256": "1bb082567ebc231c67967458c21ee0da234169f3ca7c3d00112a20c1f16366ee",
+      "split": "train",
+      "purpose_class": "noncommercial",
+      "source_id": "balochi_academy_mdc_2026",
+      "source_license": "CC-BY-NC-SA-4.0",
+      "human_reviewed": false,
+      "parent_group": "academy_nc_v1:BalochiDataset-13-BalochiPoetry-65840.txt",
+      "group_id": "final_group_bad061c3b7718cb9421e9a00"
+    },
+    "academy_nc_v1:academy_700523476e8f1e8bfa9081fc": {
+      "clean_sha256": "b6acb9ee1a2c8c930f350b1d632c443e7e4f85044b091072e68689d0ddb4a0b3",
+      "split": "train",
+      "purpose_class": "noncommercial",
+      "source_id": "balochi_academy_mdc_2026",
+      "source_license": "CC-BY-NC-SA-4.0",
+      "human_reviewed": false,
+      "parent_group": "academy_nc_v1:BalochiDataset-3-Folktales-511222.txt",
+      "group_id": "final_group_7ffd2e848e0062925dd6ec18"
+    },
+    "academy_nc_v1:academy_75b9324a5ddd3eddd7c42dfc": {
+      "clean_sha256": "e755071ae18e232dba345106c9646814a67a120afe83d516789b740f519483e5",
+      "split": "train",
+      "purpose_class": "noncommercial",
+      "source_id": "balochi_academy_mdc_2026",
+      "source_license": "CC-BY-NC-SA-4.0",
+      "human_reviewed": false,
+      "parent_group": "academy_nc_v1:BalochiDataset-3-Folktales-511222.txt",
+      "group_id": "final_group_7ffd2e848e0062925dd6ec18"
+    },
+    "academy_nc_v1:academy_7610540bf0c0e86bfedfff4c": {
+      "clean_sha256": "ab74c54e6651b6c093b1c11c5a20d660d151a5b986ab2eeef4aecd904c71a6fb",
+      "split": "train",
+      "purpose_class": "noncommercial",
+      "source_id": "balochi_academy_mdc_2026",
+      "source_license": "CC-BY-NC-SA-4.0",
+      "human_reviewed": false,
+      "parent_group": "academy_nc_v1:BalochiDataset-14-BalochiDramaarticles-217822.txt",
+      "group_id": "final_group_c01be4279a9a137bd24b3781"
+    },
+    "academy_nc_v1:academy_77259547db2ca18bdda13491": {
+      "clean_sha256": "1a7ae645d4b8ca27d3c8ea9c57f9c67d561b4ed9d754840209f296f408603a12",
+      "split": "train",
+      "purpose_class": "noncommercial",
+      "source_id": "balochi_academy_mdc_2026",
+      "source_license": "CC-BY-NC-SA-4.0",
+      "human_reviewed": false,
+      "parent_group": "academy_nc_v1:BalochiDataset-6-BalochiArticles-124241.txt",
+      "group_id": "final_group_e8f6945156be043303bd990a"
+    },
+    "academy_nc_v1:academy_7ade3daba8b02381b3f5e98f": {
+      "clean_sha256": "6aa26025cd1cdb4b43a63b818a389cdcfb7d512fb7dc63b738256d66f56cd62b",
+      "split": "train",
+      "purpose_class": "noncommercial",
+      "source_id": "balochi_academy_mdc_2026",
+      "source_license": "CC-BY-NC-SA-4.0",
+      "human_reviewed": false,
+      "parent_group": "academy_nc_v1:BalochiDataset-3-Folktales-511222.txt",
+      "group_id": "final_group_7ffd2e848e0062925dd6ec18"
+    },
+    "academy_nc_v1:academy_7c1eb87551eaf90477d919d8": {
+      "clean_sha256": "3aa4f8bcbfc6186028aa357b6da2c966805b9883db2360683b9f686ae9a0e6fb",
+      "split": "train",
+      "purpose_class": "noncommercial",
+      "source_id": "balochi_academy_mdc_2026",
+      "source_license": "CC-BY-NC-SA-4.0",
+      "human_reviewed": false,
+      "parent_group": "academy_nc_v1:BalochiDataset-3-Folktales-511222.txt",
+      "group_id": "final_group_7ffd2e848e0062925dd6ec18"
+    },
+    "academy_nc_v1:academy_7c5f38e262d0f48e866223c5": {
+      "clean_sha256": "cac55a14aa60705af5038872273f56eddf25b602917998dbac2be592aab93a3f",
+      "split": "train",
+      "purpose_class": "noncommercial",
+      "source_id": "balochi_academy_mdc_2026",
+      "source_license": "CC-BY-NC-SA-4.0",
+      "human_reviewed": false,
+      "parent_group": "academy_nc_v1:BalochiDataset-3-Folktales-511222.txt",
+      "group_id": "final_group_7ffd2e848e0062925dd6ec18"
+    },
+    "academy_nc_v1:academy_7d0ec2faea0a2d4e251fb88e": {
+      "clean_sha256": "39b853e5d812dafd336f87f2ba06c61d66d34079446820ece6dcbe8e2a72556b",
+      "split": "train",
+      "purpose_class": "noncommercial",
+      "source_id": "balochi_academy_mdc_2026",
+      "source_license": "CC-BY-NC-SA-4.0",
+      "human_reviewed": false,
+      "parent_group": "academy_nc_v1:BalochiDataset-6-BalochiArticles-124241.txt",
+      "group_id": "final_group_e8f6945156be043303bd990a"
+    },
+    "academy_nc_v1:academy_7d3172251684276b0270ead9": {
+      "clean_sha256": "11666cd1981b608c0900269c538aab7c8186489d9f87595de6251427f3df7c73",
+      "split": "train",
+      "purpose_class": "noncommercial",
+      "source_id": "balochi_academy_mdc_2026",
+      "source_license": "CC-BY-NC-SA-4.0",
+      "human_reviewed": false,
+      "parent_group": "academy_nc_v1:BalochiDataset-3-Folktales-511222.txt",
+      "group_id": "final_group_7ffd2e848e0062925dd6ec18"
+    },
+    "academy_nc_v1:academy_7ff0926cec52ba296a02909e": {
+      "clean_sha256": "5c83554ac7cd39d3d988ae9e169af80258c4e1783bf8e9da4a7df82009980b8e",
+      "split": "train",
+      "purpose_class": "noncommercial",
+      "source_id": "balochi_academy_mdc_2026",
+      "source_license": "CC-BY-NC-SA-4.0",
+      "human_reviewed": false,
+      "parent_group": "academy_nc_v1:BalochiDataset-6-BalochiArticles-124241.txt",
+      "group_id": "final_group_e8f6945156be043303bd990a"
+    },
+    "academy_nc_v1:academy_89cbacb793ee73e5d6c28bf4": {
+      "clean_sha256": "ba0fba40f9d63c46864de46f17829986c8e1b555b317db4540b5e9a7d6fa20c3",
+      "split": "train",
+      "purpose_class": "noncommercial",
+      "source_id": "balochi_academy_mdc_2026",
+      "source_license": "CC-BY-NC-SA-4.0",
+      "human_reviewed": false,
+      "parent_group": "academy_nc_v1:BalochiDataset-14-BalochiDramaarticles-217822.txt",
+      "group_id": "final_group_c01be4279a9a137bd24b3781"
+    },
+    "academy_nc_v1:academy_8afcbad5e104d3611574db91": {
+      "clean_sha256": "5e5ab244bb9f481d31f03dc7fe0a36955299a3c3221e8a1faa365f32732966cb",
+      "split": "train",
+      "purpose_class": "noncommercial",
+      "source_id": "balochi_academy_mdc_2026",
+      "source_license": "CC-BY-NC-SA-4.0",
+      "human_reviewed": false,
+      "parent_group": "academy_nc_v1:BalochiDataset-6-BalochiArticles-124241.txt",
+      "group_id": "final_group_e8f6945156be043303bd990a"
+    },
+    "academy_nc_v1:academy_8e04a583bcef01da48499586": {
+      "clean_sha256": "1a4d2b2acb123e81a7c44a24462a6ae5655aee063a591851430d30199348effc",
+      "split": "train",
+      "purpose_class": "noncommercial",
+      "source_id": "balochi_academy_mdc_2026",
+      "source_license": "CC-BY-NC-SA-4.0",
+      "human_reviewed": false,
+      "parent_group": "academy_nc_v1:BalochiDataset-7-BalochiArticlesonoldStories-191370.txt",
+      "group_id": "final_group_4c3d3920ddf593caf376438d"
+    },
+    "academy_nc_v1:academy_90e7c1656013eab5290dd495": {
+      "clean_sha256": "011301c15acdbfaa2de4ee32f6af9d4b12032676b6a5d826a70ccc436762190a",
+      "split": "train",
+      "purpose_class": "noncommercial",
+      "source_id": "balochi_academy_mdc_2026",
+      "source_license": "CC-BY-NC-SA-4.0",
+      "human_reviewed": false,
+      "parent_group": "academy_nc_v1:BalochiDataset-3-Folktales-511222.txt",
+      "group_id": "final_group_7ffd2e848e0062925dd6ec18"
+    },
+    "academy_nc_v1:academy_95b7ac8d0acbfe61f55303be": {
+      "clean_sha256": "317727d3a0a7a38e59bcf4a09fe991e81f025fe10bfe58e44b069ccb261396e6",
+      "split": "train",
+      "purpose_class": "noncommercial",
+      "source_id": "balochi_academy_mdc_2026",
+      "source_license": "CC-BY-NC-SA-4.0",
+      "human_reviewed": false,
+      "parent_group": "academy_nc_v1:BalochiDataset-3-Folktales-511222.txt",
+      "group_id": "final_group_7ffd2e848e0062925dd6ec18"
+    },
+    "academy_nc_v1:academy_9639708c67bb36ec1b098319": {
+      "clean_sha256": "c25355176657409fb77cea29bd902b1fbf33ab9993c103eabd38aa30590c1ab5",
+      "split": "train",
+      "purpose_class": "noncommercial",
+      "source_id": "balochi_academy_mdc_2026",
+      "source_license": "CC-BY-NC-SA-4.0",
+      "human_reviewed": false,
+      "parent_group": "academy_nc_v1:BalochiDataset-7-BalochiArticlesonoldStories-191370.txt",
+      "group_id": "final_group_4c3d3920ddf593caf376438d"
+    },
+    "academy_nc_v1:academy_9975ab4ca960184b8d6a6414": {
+      "clean_sha256": "303828c833b21284f250557b2157c5bc3f8ae2395de8662258dec7aa5c8e99b7",
+      "split": "train",
+      "purpose_class": "noncommercial",
+      "source_id": "balochi_academy_mdc_2026",
+      "source_license": "CC-BY-NC-SA-4.0",
+      "human_reviewed": false,
+      "parent_group": "academy_nc_v1:BalochiDataset-3-Folktales-511222.txt",
+      "group_id": "final_group_7ffd2e848e0062925dd6ec18"
+    },
+    "academy_nc_v1:academy_9beacc7b8fa898dfeb0abc38": {
+      "clean_sha256": "fb05cd56d78244dc452c243268df36a6a43307fc005fb47d8830afe2e12d8d95",
+      "split": "train",
+      "purpose_class": "noncommercial",
+      "source_id": "balochi_academy_mdc_2026",
+      "source_license": "CC-BY-NC-SA-4.0",
+      "human_reviewed": false,
+      "parent_group": "academy_nc_v1:BalochiDataset-3-Folktales-511222.txt",
+      "group_id": "final_group_7ffd2e848e0062925dd6ec18"
+    },
+    "academy_nc_v1:academy_a11352f04589375a185937cd": {
+      "clean_sha256": "f34e557b1e1e66fa6b6175cd14fec6c4b458a900471bd0cb2258f2570e7133db",
+      "split": "train",
+      "purpose_class": "noncommercial",
+      "source_id": "balochi_academy_mdc_2026",
+      "source_license": "CC-BY-NC-SA-4.0",
+      "human_reviewed": false,
+      "parent_group": "academy_nc_v1:BalochiDataset-13-BalochiPoetry-65840.txt",
+      "group_id": "final_group_bad061c3b7718cb9421e9a00"
+    },
+    "academy_nc_v1:academy_a21866782d4dabca1e06c993": {
+      "clean_sha256": "8628c137a63190c2ab5e9151f0dbb465ac73aa3e167bc4b30c86cdbc55313ee5",
+      "split": "train",
+      "purpose_class": "noncommercial",
+      "source_id": "balochi_academy_mdc_2026",
+      "source_license": "CC-BY-NC-SA-4.0",
+      "human_reviewed": false,
+      "parent_group": "academy_nc_v1:BalochiDataset-3-Folktales-511222.txt",
+      "group_id": "final_group_7ffd2e848e0062925dd6ec18"
+    },
+    "academy_nc_v1:academy_a34668f9387bcef1a0fe911f": {
+      "clean_sha256": "acfe31410f342045158623732da9cc4ba60645b318da0772d72857ee94bb2418",
+      "split": "train",
+      "purpose_class": "noncommercial",
+      "source_id": "balochi_academy_mdc_2026",
+      "source_license": "CC-BY-NC-SA-4.0",
+      "human_reviewed": false,
+      "parent_group": "academy_nc_v1:BalochiDataset-3-Folktales-511222.txt",
+      "group_id": "final_group_7ffd2e848e0062925dd6ec18"
+    },
+    "academy_nc_v1:academy_a5792f38453fcaf203cf02dd": {
+      "clean_sha256": "feea11acf4de8ea0b7d17e632667e12deb1cb11891fef278070d24bd15c1370b",
+      "split": "train",
+      "purpose_class": "noncommercial",
+      "source_id": "balochi_academy_mdc_2026",
+      "source_license": "CC-BY-NC-SA-4.0",
+      "human_reviewed": false,
+      "parent_group": "academy_nc_v1:BalochiDataset-3-Folktales-511222.txt",
+      "group_id": "final_group_7ffd2e848e0062925dd6ec18"
+    },
+    "academy_nc_v1:academy_a8726fce9ec6599f72ffc05e": {
+      "clean_sha256": "6843e53662319d5997f040b40d9e9cef6c090172916909eefbe0ea658bfbff3c",
+      "split": "train",
+      "purpose_class": "noncommercial",
+      "source_id": "balochi_academy_mdc_2026",
+      "source_license": "CC-BY-NC-SA-4.0",
+      "human_reviewed": false,
+      "parent_group": "academy_nc_v1:BalochiDataset-7-BalochiArticlesonoldStories-191370.txt",
+      "group_id": "final_group_4c3d3920ddf593caf376438d"
+    },
+    "academy_nc_v1:academy_acaf56036a8d99e0573023f4": {
+      "clean_sha256": "e337f151ec5c95022cfada33cd1a66fb2932f23e19115e7f9a287eeb32e7ac5d",
+      "split": "train",
+      "purpose_class": "noncommercial",
+      "source_id": "balochi_academy_mdc_2026",
+      "source_license": "CC-BY-NC-SA-4.0",
+      "human_reviewed": false,
+      "parent_group": "academy_nc_v1:BalochiDataset-7-BalochiArticlesonoldStories-191370.txt",
+      "group_id": "final_group_4c3d3920ddf593caf376438d"
+    },
+    "academy_nc_v1:academy_accb985c3bec654a4d6135a4": {
+      "clean_sha256": "3be1e334e2ae6731e4d6dbd7e22795847ea5d95d519e316358bd80fe0bdca763",
+      "split": "train",
+      "purpose_class": "noncommercial",
+      "source_id": "balochi_academy_mdc_2026",
+      "source_license": "CC-BY-NC-SA-4.0",
+      "human_reviewed": false,
+      "parent_group": "academy_nc_v1:BalochiDataset-3-Folktales-511222.txt",
+      "group_id": "final_group_7ffd2e848e0062925dd6ec18"
+    },
+    "academy_nc_v1:academy_ae922a42f5b7b00375b890f5": {
+      "clean_sha256": "df03e9c7287f98997ebe17efa8ff3c3dc9e628a09f4f251aae9c4b65eeb263d2",
+      "split": "train",
+      "purpose_class": "noncommercial",
+      "source_id": "balochi_academy_mdc_2026",
+      "source_license": "CC-BY-NC-SA-4.0",
+      "human_reviewed": false,
+      "parent_group": "academy_nc_v1:BalochiDataset-14-BalochiDramaarticles-217822.txt",
+      "group_id": "final_group_c01be4279a9a137bd24b3781"
+    },
+    "academy_nc_v1:academy_aea1bdee6d00511f8e1b46c4": {
+      "clean_sha256": "62d631bd8fe5aad75a4a4ba659de60b69d14905c4d11ebeea8a0716ebada7def",
+      "split": "train",
+      "purpose_class": "noncommercial",
+      "source_id": "balochi_academy_mdc_2026",
+      "source_license": "CC-BY-NC-SA-4.0",
+      "human_reviewed": false,
+      "parent_group": "academy_nc_v1:BalochiDataset-3-Folktales-511222.txt",
+      "group_id": "final_group_7ffd2e848e0062925dd6ec18"
+    },
+    "academy_nc_v1:academy_aedb8667c92fbf5d7732ee34": {
+      "clean_sha256": "754d94315fdec56d5d9a8df06e34d1e03a40f9bc831d420293f39945e36fe902",
+      "split": "train",
+      "purpose_class": "noncommercial",
+      "source_id": "balochi_academy_mdc_2026",
+      "source_license": "CC-BY-NC-SA-4.0",
+      "human_reviewed": false,
+      "parent_group": "academy_nc_v1:BalochiDataset-12-BalochiPoetry-50186.txt",
+      "group_id": "final_group_0f6372eba7af04f734eb59fe"
+    },
+    "academy_nc_v1:academy_b305bd6cec7a2ba3229e205b": {
+      "clean_sha256": "acc86f9346f900ff8e73e74a68e37367d50fbd43837ed59ea64b64acb15a9f0f",
+      "split": "train",
+      "purpose_class": "noncommercial",
+      "source_id": "balochi_academy_mdc_2026",
+      "source_license": "CC-BY-NC-SA-4.0",
+      "human_reviewed": false,
+      "parent_group": "academy_nc_v1:BalochiDataset-3-Folktales-511222.txt",
+      "group_id": "final_group_7ffd2e848e0062925dd6ec18"
+    },
+    "academy_nc_v1:academy_b347a9c7e40927c3569be295": {
+      "clean_sha256": "ef9fe7bcf592489ef8f3fef460bb8430fa83fb70eddf4320058a969fa0255417",
+      "split": "train",
+      "purpose_class": "noncommercial",
+      "source_id": "balochi_academy_mdc_2026",
+      "source_license": "CC-BY-NC-SA-4.0",
+      "human_reviewed": false,
+      "parent_group": "academy_nc_v1:BalochiDataset-3-Folktales-511222.txt",
+      "group_id": "final_group_7ffd2e848e0062925dd6ec18"
+    },
+    "academy_nc_v1:academy_b348a7aeb5d9a29cd12b9986": {
+      "clean_sha256": "a7f378cb2e4a3ea822175950e2b1fecf9dbaaf0826b9692ed8d19c8be04b551c",
+      "split": "train",
+      "purpose_class": "noncommercial",
+      "source_id": "balochi_academy_mdc_2026",
+      "source_license": "CC-BY-NC-SA-4.0",
+      "human_reviewed": false,
+      "parent_group": "academy_nc_v1:BalochiDataset-14-BalochiDramaarticles-217822.txt",
+      "group_id": "final_group_c01be4279a9a137bd24b3781"
+    },
+    "academy_nc_v1:academy_b34aa4efd0609d068f0ea0dc": {
+      "clean_sha256": "fbbd4486c00d9596c487ede0955f95b0a2db8ce867105c58c953ce4c45e5456e",
+      "split": "train",
+      "purpose_class": "noncommercial",
+      "source_id": "balochi_academy_mdc_2026",
+      "source_license": "CC-BY-NC-SA-4.0",
+      "human_reviewed": false,
+      "parent_group": "academy_nc_v1:BalochiDataset-14-BalochiDramaarticles-217822.txt",
+      "group_id": "final_group_c01be4279a9a137bd24b3781"
+    },
+    "academy_nc_v1:academy_b3d2cc212c2773574283fb29": {
+      "clean_sha256": "024e24a90b789e535e8a0cd9fa65a8a95b423175a371ba9865513ae8005df73c",
+      "split": "train",
+      "purpose_class": "noncommercial",
+      "source_id": "balochi_academy_mdc_2026",
+      "source_license": "CC-BY-NC-SA-4.0",
+      "human_reviewed": false,
+      "parent_group": "academy_nc_v1:BalochiDataset-14-BalochiDramaarticles-217822.txt",
+      "group_id": "final_group_c01be4279a9a137bd24b3781"
+    },
+    "academy_nc_v1:academy_b4ea4a0378eab7c6aaaf3a28": {
+      "clean_sha256": "28d1e7a18f0da2586e8bfcf71e503cf410db28eae7db8c1501cfaba7e30a21ae",
+      "split": "train",
+      "purpose_class": "noncommercial",
+      "source_id": "balochi_academy_mdc_2026",
+      "source_license": "CC-BY-NC-SA-4.0",
+      "human_reviewed": false,
+      "parent_group": "academy_nc_v1:BalochiDataset-13-BalochiPoetry-65840.txt",
+      "group_id": "final_group_bad061c3b7718cb9421e9a00"
+    },
+    "academy_nc_v1:academy_b4ffbcf164dff2a3870104db": {
+      "clean_sha256": "3233ff4bc1862ea75464bf88a885fd53a6cf59e1a577d94fc2949df03e33ea3a",
+      "split": "train",
+      "purpose_class": "noncommercial",
+      "source_id": "balochi_academy_mdc_2026",
+      "source_license": "CC-BY-NC-SA-4.0",
+      "human_reviewed": false,
+      "parent_group": "academy_nc_v1:BalochiDataset-14-BalochiDramaarticles-217822.txt",
+      "group_id": "final_group_c01be4279a9a137bd24b3781"
+    },
+    "academy_nc_v1:academy_b857c0d45516aaa3c9933d17": {
+      "clean_sha256": "cb3319f5249ebbd7173d889c19828ac7f1de15037743177ee2e56438dbe1df9a",
+      "split": "train",
+      "purpose_class": "noncommercial",
+      "source_id": "balochi_academy_mdc_2026",
+      "source_license": "CC-BY-NC-SA-4.0",
+      "human_reviewed": false,
+      "parent_group": "academy_nc_v1:BalochiDataset-6-BalochiArticles-124241.txt",
+      "group_id": "final_group_e8f6945156be043303bd990a"
+    },
+    "academy_nc_v1:academy_b863576ca8f9e57a5a660abb": {
+      "clean_sha256": "d9c554d7aca7ae14578d9810e1d5a9fdf2f0cba75cf74d8c59f27f433b9a5efb",
+      "split": "train",
+      "purpose_class": "noncommercial",
+      "source_id": "balochi_academy_mdc_2026",
+      "source_license": "CC-BY-NC-SA-4.0",
+      "human_reviewed": false,
+      "parent_group": "academy_nc_v1:BalochiDataset-12-BalochiPoetry-50186.txt",
+      "group_id": "final_group_0f6372eba7af04f734eb59fe"
+    },
+    "academy_nc_v1:academy_bb66fe3768de65bf6b3cf205": {
+      "clean_sha256": "8dacfb58ab0ae4dac7a1c3dd2a4d99e91cffed389c8db1ff1502fbab69d18e67",
+      "split": "train",
+      "purpose_class": "noncommercial",
+      "source_id": "balochi_academy_mdc_2026",
+      "source_license": "CC-BY-NC-SA-4.0",
+      "human_reviewed": false,
+      "parent_group": "academy_nc_v1:BalochiDataset-3-Folktales-511222.txt",
+      "group_id": "final_group_7ffd2e848e0062925dd6ec18"
+    },
+    "academy_nc_v1:academy_c0995fab41b5281ccfdf9308": {
+      "clean_sha256": "e559394430a76f5b7023cafb8c2fb288555fb9a0827505c97043c94b922f81d4",
+      "split": "train",
+      "purpose_class": "noncommercial",
+      "source_id": "balochi_academy_mdc_2026",
+      "source_license": "CC-BY-NC-SA-4.0",
+      "human_reviewed": false,
+      "parent_group": "academy_nc_v1:BalochiDataset-3-Folktales-511222.txt",
+      "group_id": "final_group_7ffd2e848e0062925dd6ec18"
+    },
+    "academy_nc_v1:academy_c805dfb9d97812e852d959bf": {
+      "clean_sha256": "f56bad8b931436f7c2274ab44b27069c4225c01adc8cf91d227806eaef97dd79",
+      "split": "train",
+      "purpose_class": "noncommercial",
+      "source_id": "balochi_academy_mdc_2026",
+      "source_license": "CC-BY-NC-SA-4.0",
+      "human_reviewed": false,
+      "parent_group": "academy_nc_v1:BalochiDataset-3-Folktales-511222.txt",
+      "group_id": "final_group_7ffd2e848e0062925dd6ec18"
+    },
+    "academy_nc_v1:academy_c8e46d224faa2a7cd9cf5ad3": {
+      "clean_sha256": "1af22b11acb940adc3440b329ea84c73c66928e9677717420c906d251b0eee2c",
+      "split": "train",
+      "purpose_class": "noncommercial",
+      "source_id": "balochi_academy_mdc_2026",
+      "source_license": "CC-BY-NC-SA-4.0",
+      "human_reviewed": false,
+      "parent_group": "academy_nc_v1:BalochiDataset-14-BalochiDramaarticles-217822.txt",
+      "group_id": "final_group_c01be4279a9a137bd24b3781"
+    },
+    "academy_nc_v1:academy_cc90785da27fef29a059377b": {
+      "clean_sha256": "47a5f93ee2de29418ba5774356407f16eae4cf5921409147fa255d2f989aab57",
+      "split": "train",
+      "purpose_class": "noncommercial",
+      "source_id": "balochi_academy_mdc_2026",
+      "source_license": "CC-BY-NC-SA-4.0",
+      "human_reviewed": false,
+      "parent_group": "academy_nc_v1:BalochiDataset-3-Folktales-511222.txt",
+      "group_id": "final_group_7ffd2e848e0062925dd6ec18"
+    },
+    "academy_nc_v1:academy_cf412f40c4b0803d82e02822": {
+      "clean_sha256": "6eb2bc7fb11f052c7b597d5b346cf98b7351ceef40673709e85e8326850223f0",
+      "split": "train",
+      "purpose_class": "noncommercial",
+      "source_id": "balochi_academy_mdc_2026",
+      "source_license": "CC-BY-NC-SA-4.0",
+      "human_reviewed": false,
+      "parent_group": "academy_nc_v1:BalochiDataset-6-BalochiArticles-124241.txt",
+      "group_id": "final_group_e8f6945156be043303bd990a"
+    },
+    "academy_nc_v1:academy_d1b2428d41f1ed5b9df652aa": {
+      "clean_sha256": "62796825538892f4e9180957b9c1e9e4c17108475bdd424bfba811b64cc689b8",
+      "split": "train",
+      "purpose_class": "noncommercial",
+      "source_id": "balochi_academy_mdc_2026",
+      "source_license": "CC-BY-NC-SA-4.0",
+      "human_reviewed": false,
+      "parent_group": "academy_nc_v1:BalochiDataset-6-BalochiArticles-124241.txt",
+      "group_id": "final_group_e8f6945156be043303bd990a"
+    },
+    "academy_nc_v1:academy_d4eba403f4dff21944728133": {
+      "clean_sha256": "9d91d5f6a65dea6aef4aab067032e3b6492d8f31fafc730aed3d4a401d1a90aa",
+      "split": "train",
+      "purpose_class": "noncommercial",
+      "source_id": "balochi_academy_mdc_2026",
+      "source_license": "CC-BY-NC-SA-4.0",
+      "human_reviewed": false,
+      "parent_group": "academy_nc_v1:BalochiDataset-7-BalochiArticlesonoldStories-191370.txt",
+      "group_id": "final_group_4c3d3920ddf593caf376438d"
+    },
+    "academy_nc_v1:academy_d528a4b88da452aa75e90a26": {
+      "clean_sha256": "a2609135bb874f543abfe8388248a73fcfe35a4b9ddedbc2232078863fbf555c",
+      "split": "train",
+      "purpose_class": "noncommercial",
+      "source_id": "balochi_academy_mdc_2026",
+      "source_license": "CC-BY-NC-SA-4.0",
+      "human_reviewed": false,
+      "parent_group": "academy_nc_v1:BalochiDataset-7-BalochiArticlesonoldStories-191370.txt",
+      "group_id": "final_group_4c3d3920ddf593caf376438d"
+    },
+    "academy_nc_v1:academy_dce993d90ebd02a6e4ee112b": {
+      "clean_sha256": "44be5c51755292089bff791e7cf9007b152d07bdfa2d97806fb4f0e59bafaac7",
+      "split": "train",
+      "purpose_class": "noncommercial",
+      "source_id": "balochi_academy_mdc_2026",
+      "source_license": "CC-BY-NC-SA-4.0",
+      "human_reviewed": false,
+      "parent_group": "academy_nc_v1:BalochiDataset-3-Folktales-511222.txt",
+      "group_id": "final_group_7ffd2e848e0062925dd6ec18"
+    },
+    "academy_nc_v1:academy_dcf74e095a138970c6473d3f": {
+      "clean_sha256": "3b63e0058af7054e3a0e72f5c1a558a1b22e99b689a6f5a842b2c8682ba979ea",
+      "split": "train",
+      "purpose_class": "noncommercial",
+      "source_id": "balochi_academy_mdc_2026",
+      "source_license": "CC-BY-NC-SA-4.0",
+      "human_reviewed": false,
+      "parent_group": "academy_nc_v1:BalochiDataset-3-Folktales-511222.txt",
+      "group_id": "final_group_7ffd2e848e0062925dd6ec18"
+    },
+    "academy_nc_v1:academy_dd9c7a891693b139a7479de1": {
+      "clean_sha256": "abd73160f3742c431b6e2f945e3e91a4704d93f8adb4530e27990ec4914d1a2c",
+      "split": "train",
+      "purpose_class": "noncommercial",
+      "source_id": "balochi_academy_mdc_2026",
+      "source_license": "CC-BY-NC-SA-4.0",
+      "human_reviewed": false,
+      "parent_group": "academy_nc_v1:BalochiDataset-7-BalochiArticlesonoldStories-191370.txt",
+      "group_id": "final_group_4c3d3920ddf593caf376438d"
+    },
+    "academy_nc_v1:academy_e3d7c3afad825d087dbde245": {
+      "clean_sha256": "5d45a27b0a56047b7b79e547ebd9c7a215facda6a42a3cf9dac5cfe01fdd6306",
+      "split": "train",
+      "purpose_class": "noncommercial",
+      "source_id": "balochi_academy_mdc_2026",
+      "source_license": "CC-BY-NC-SA-4.0",
+      "human_reviewed": false,
+      "parent_group": "academy_nc_v1:BalochiDataset-3-Folktales-511222.txt",
+      "group_id": "final_group_7ffd2e848e0062925dd6ec18"
+    },
+    "academy_nc_v1:academy_e50b527fc0b4ece1aa608df6": {
+      "clean_sha256": "53384f8524a05d1a177ec802596e33377a34dba519f191c15459a63adce4e7b4",
+      "split": "train",
+      "purpose_class": "noncommercial",
+      "source_id": "balochi_academy_mdc_2026",
+      "source_license": "CC-BY-NC-SA-4.0",
+      "human_reviewed": false,
+      "parent_group": "academy_nc_v1:BalochiDataset-3-Folktales-511222.txt",
+      "group_id": "final_group_7ffd2e848e0062925dd6ec18"
+    },
+    "academy_nc_v1:academy_e628d15bd2d88794605f366e": {
+      "clean_sha256": "d6dfc61d223836c5f33a7f19d675531557d80fcc8c832cf1e071bb665cba9fd3",
+      "split": "train",
+      "purpose_class": "noncommercial",
+      "source_id": "balochi_academy_mdc_2026",
+      "source_license": "CC-BY-NC-SA-4.0",
+      "human_reviewed": false,
+      "parent_group": "academy_nc_v1:BalochiDataset-7-BalochiArticlesonoldStories-191370.txt",
+      "group_id": "final_group_4c3d3920ddf593caf376438d"
+    },
+    "academy_nc_v1:academy_e699dd29a56a0f79ade8dc9c": {
+      "clean_sha256": "d0a91616974aaf1075f9c619ce899eefee9a21bebe826864c067654d12ebd55a",
+      "split": "train",
+      "purpose_class": "noncommercial",
+      "source_id": "balochi_academy_mdc_2026",
+      "source_license": "CC-BY-NC-SA-4.0",
+      "human_reviewed": false,
+      "parent_group": "academy_nc_v1:BalochiDataset-7-BalochiArticlesonoldStories-191370.txt",
+      "group_id": "final_group_4c3d3920ddf593caf376438d"
+    },
+    "academy_nc_v1:academy_e773f4a4f3cdb7a27c7ea79a": {
+      "clean_sha256": "28a5bfeed72382bbc3f8f7fb62ef5ca09daa8f3340bfb862ffdda6cd341e1dd2",
+      "split": "train",
+      "purpose_class": "noncommercial",
+      "source_id": "balochi_academy_mdc_2026",
+      "source_license": "CC-BY-NC-SA-4.0",
+      "human_reviewed": false,
+      "parent_group": "academy_nc_v1:BalochiDataset-3-Folktales-511222.txt",
+      "group_id": "final_group_7ffd2e848e0062925dd6ec18"
+    },
+    "academy_nc_v1:academy_e9b288460d2c2ce97d72e635": {
+      "clean_sha256": "bea2a0b1c376766fd8f1cec3b887b9c9746f39cbbfe8d51f753c69aa1484417c",
+      "split": "train",
+      "purpose_class": "noncommercial",
+      "source_id": "balochi_academy_mdc_2026",
+      "source_license": "CC-BY-NC-SA-4.0",
+      "human_reviewed": false,
+      "parent_group": "academy_nc_v1:BalochiDataset-14-BalochiDramaarticles-217822.txt",
+      "group_id": "final_group_c01be4279a9a137bd24b3781"
+    },
+    "academy_nc_v1:academy_ec380e08b14199cebce8b90e": {
+      "clean_sha256": "9b8b2a3580aabd4d89bdaf1253bb6175a21bb0450c8b7984a6457c3130d1dfea",
+      "split": "train",
+      "purpose_class": "noncommercial",
+      "source_id": "balochi_academy_mdc_2026",
+      "source_license": "CC-BY-NC-SA-4.0",
+      "human_reviewed": false,
+      "parent_group": "academy_nc_v1:BalochiDataset-14-BalochiDramaarticles-217822.txt",
+      "group_id": "final_group_c01be4279a9a137bd24b3781"
+    },
+    "academy_nc_v1:academy_ee2276e2eef87f94933cfab9": {
+      "clean_sha256": "cf386afbc46fb73f04d4bd5255e6312ff96689155f120072f330fd55dd849b85",
+      "split": "train",
+      "purpose_class": "noncommercial",
+      "source_id": "balochi_academy_mdc_2026",
+      "source_license": "CC-BY-NC-SA-4.0",
+      "human_reviewed": false,
+      "parent_group": "academy_nc_v1:BalochiDataset-3-Folktales-511222.txt",
+      "group_id": "final_group_7ffd2e848e0062925dd6ec18"
+    },
+    "academy_nc_v1:academy_ee411be96c42b213e64597e6": {
+      "clean_sha256": "e79a2b517c53de1785db508a42981005029f15088c26dbf62de33be25965de3f",
+      "split": "train",
+      "purpose_class": "noncommercial",
+      "source_id": "balochi_academy_mdc_2026",
+      "source_license": "CC-BY-NC-SA-4.0",
+      "human_reviewed": false,
+      "parent_group": "academy_nc_v1:BalochiDataset-7-BalochiArticlesonoldStories-191370.txt",
+      "group_id": "final_group_4c3d3920ddf593caf376438d"
+    },
+    "academy_nc_v1:academy_f456cc5e37eca68c79ee4ed6": {
+      "clean_sha256": "b9d1823b055f824775c031d944cd87491643abcedb68ec127bf4ab438d0b2307",
+      "split": "train",
+      "purpose_class": "noncommercial",
+      "source_id": "balochi_academy_mdc_2026",
+      "source_license": "CC-BY-NC-SA-4.0",
+      "human_reviewed": false,
+      "parent_group": "academy_nc_v1:BalochiDataset-7-BalochiArticlesonoldStories-191370.txt",
+      "group_id": "final_group_4c3d3920ddf593caf376438d"
+    },
+    "academy_nc_v1:academy_fa969035ab18d4d7737c84a0": {
+      "clean_sha256": "cb83f97cf5b10518847ac0fafee5e8ad8e8affc32759410378bcb9aa4f22710d",
+      "split": "train",
+      "purpose_class": "noncommercial",
+      "source_id": "balochi_academy_mdc_2026",
+      "source_license": "CC-BY-NC-SA-4.0",
+      "human_reviewed": false,
+      "parent_group": "academy_nc_v1:BalochiDataset-6-BalochiArticles-124241.txt",
+      "group_id": "final_group_e8f6945156be043303bd990a"
+    },
+    "academy_nc_v1:academy_fb3cf01764ef0c7bb856b0ff": {
+      "clean_sha256": "2b6a00e12dfd1e04f1ec9f1520e1336b1fd43439075e89bf985212d1ae4adde0",
+      "split": "train",
+      "purpose_class": "noncommercial",
+      "source_id": "balochi_academy_mdc_2026",
+      "source_license": "CC-BY-NC-SA-4.0",
+      "human_reviewed": false,
+      "parent_group": "academy_nc_v1:BalochiDataset-7-BalochiArticlesonoldStories-191370.txt",
+      "group_id": "final_group_4c3d3920ddf593caf376438d"
+    },
+    "academy_nc_v1:academy_fd723f26a685177f06c675c5": {
+      "clean_sha256": "103ce79fd762fcacacf6eee5af78c504b9e811ab4a20f3bbc4012a61b75d95f4",
+      "split": "train",
+      "purpose_class": "noncommercial",
+      "source_id": "balochi_academy_mdc_2026",
+      "source_license": "CC-BY-NC-SA-4.0",
+      "human_reviewed": false,
+      "parent_group": "academy_nc_v1:BalochiDataset-7-BalochiArticlesonoldStories-191370.txt",
+      "group_id": "final_group_4c3d3920ddf593caf376438d"
+    },
+    "academy_nc_v1:academy_ff204e79908101685204c759": {
+      "clean_sha256": "4634bf7a23e7ebf822d9376700f0a4473d4edb235b1f3895835120ece0000c96",
+      "split": "train",
+      "purpose_class": "noncommercial",
+      "source_id": "balochi_academy_mdc_2026",
+      "source_license": "CC-BY-NC-SA-4.0",
+      "human_reviewed": false,
+      "parent_group": "academy_nc_v1:BalochiDataset-3-Folktales-511222.txt",
+      "group_id": "final_group_7ffd2e848e0062925dd6ec18"
+    },
+    "academy_nc_v1:academy_3f05b5eef921411cfcefcc67": {
+      "clean_sha256": "2bf9a7122ba9b5ac2c2fb5b67739f9a8c46c1e428fa40eca74cc80f6aca91f71",
+      "split": "validation",
+      "purpose_class": "noncommercial",
+      "source_id": "balochi_academy_mdc_2026",
+      "source_license": "CC-BY-NC-SA-4.0",
+      "human_reviewed": false,
+      "parent_group": "academy_nc_v1:BalochiDataset-9-BalochiPoetryarticle-49908.txt",
+      "group_id": "final_group_e6eb7f2ccb07d05e3bfbf7fc"
+    },
+    "academy_nc_v1:academy_97efd5ba84ba98daf9befed0": {
+      "clean_sha256": "84d629009e731436b6d581f8335ce0ca04c2108ead17dca9b25b81919336c8e8",
+      "split": "validation",
+      "purpose_class": "noncommercial",
+      "source_id": "balochi_academy_mdc_2026",
+      "source_license": "CC-BY-NC-SA-4.0",
+      "human_reviewed": false,
+      "parent_group": "academy_nc_v1:BalochiDataset-9-BalochiPoetryarticle-49908.txt",
+      "group_id": "final_group_e6eb7f2ccb07d05e3bfbf7fc"
+    },
+    "academy_nc_v1:academy_b2f04e9c09f934c38ea7d1d4": {
+      "clean_sha256": "e08dd6674836f98cb1cc69902b437dfcd17e2f084f4d601f62dcdcb4910c5f10",
+      "split": "validation",
+      "purpose_class": "noncommercial",
+      "source_id": "balochi_academy_mdc_2026",
+      "source_license": "CC-BY-NC-SA-4.0",
+      "human_reviewed": false,
+      "parent_group": "academy_nc_v1:BalochiDataset-9-BalochiPoetryarticle-49908.txt",
+      "group_id": "final_group_e6eb7f2ccb07d05e3bfbf7fc"
+    },
+    "academy_nc_v1:academy_ee54c88c723f702c3efe9bb2": {
+      "clean_sha256": "929a8fd4a24358b3501ecf2651e56484f149d682f8475e77b1e430e0e04ebda5",
+      "split": "validation",
+      "purpose_class": "noncommercial",
+      "source_id": "balochi_academy_mdc_2026",
+      "source_license": "CC-BY-NC-SA-4.0",
+      "human_reviewed": false,
+      "parent_group": "academy_nc_v1:BalochiDataset-9-BalochiPoetryarticle-49908.txt",
+      "group_id": "final_group_e6eb7f2ccb07d05e3bfbf7fc"
+    },
+    "academy_nc_v1:academy_fd450b1d3202329a2c6ed30a": {
+      "clean_sha256": "f1e822f7e59a918ec5a60cfb6fa8b020d3e6f482a66be81deb2d11fe6ce47b1f",
+      "split": "validation",
+      "purpose_class": "noncommercial",
+      "source_id": "balochi_academy_mdc_2026",
+      "source_license": "CC-BY-NC-SA-4.0",
+      "human_reviewed": false,
+      "parent_group": "academy_nc_v1:BalochiDataset-9-BalochiPoetryarticle-49908.txt",
+      "group_id": "final_group_e6eb7f2ccb07d05e3bfbf7fc"
+    }
+  }
+}

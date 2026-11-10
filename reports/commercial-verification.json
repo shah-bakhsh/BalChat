@@ -1,0 +1,71 @@
+{
+  "reloaded_validation": {
+    "token_weighted_nll": 5.727272076714308,
+    "perplexity": 307.13029668440714,
+    "predicted_tokens": 4788
+  },
+  "reload_matches_selected": true,
+  "test_after_selection": null,
+  "test_used_for_training_or_selection": false,
+  "all_weights_finite": true,
+  "model_state_sha256": "fe849f861a5e0e2a2227659731263caf2ee0857cec68f9b870ebc7626bcca764",
+  "file_sha256": {
+    "config.json": "e51d12a5c935f7ad290e206549410ba66fc5f444eabb91e8d952271e321e10e4",
+    "generation_config.json": "90a693be3b4d0a8e517b718d4379cf46321fdf0d8ecdbcf8b12955e395952330",
+    "tokenizer.json": "f51ab956ff50c1ae9297a48d2dc3feaec71e47870f780c0f1f7e3c3baef81dcc",
+    "model.safetensors": "a2130bf41e8e6f38362264b1221233711a6a89de581b0d42c118a0addd9642ee",
+    "tokenizer_config.json": "3f3948715c68f778ecca1f983f0c8c277ec4c791be004bef0ebf5eb4075f0996",
+    "special_tokens_map.json": "d8f9ff94656ba0dfe25498017c0d2b4986e34c4d48edd6b1dd9333c58da99739"
+  },
+  "diagnostic_generations": [
+    {
+      "id": "arabic_greeting",
+      "prompt": "Write one short greeting in Balochi using Arabic script.",
+      "output": "\n.\n\n\n\n\n\n\n' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' '",
+      "requested_script": "Arabic",
+      "letter_counts": {
+        "Arabic": 0,
+        "Latin": 0
+      },
+      "native_correctness": null,
+      "synthetic_unreviewed_not_training_data": true
+    },
+    {
+      "id": "latin_greeting",
+      "prompt": "Write one short greeting in Balochi using Latin script.",
+      "output": "\n.\n.\n\n\n\n\n\n\n\n' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' '",
+      "requested_script": "Latin",
+      "letter_counts": {
+        "Arabic": 0,
+        "Latin": 0
+      },
+      "native_correctness": null,
+      "synthetic_unreviewed_not_training_data": true
+    },
+    {
+      "id": "english_translation",
+      "prompt": "Translate into Balochi: Hello, how are you?",
+      "output": "FFFFFF ء ء ء ء ء ء ء ء ء ء ء ء ء ء ء ء ء ء ء ء ء ء ء ء ء ء ء ء ء ء ء ء ء ء ء ء ء ء ء ء ء ء",
+      "requested_script": null,
+      "letter_counts": {
+        "Arabic": 42,
+        "Latin": 6
+      },
+      "native_correctness": null,
+      "synthetic_unreviewed_not_training_data": true
+    },
+    {
+      "id": "reasoning",
+      "prompt": "Answer in Balochi: I have two books and receive three more. How many books do I have?",
+      "output": ",.\n.\n.\n\n\n\n\n' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' '",
+      "requested_script": null,
+      "letter_counts": {
+        "Arabic": 0,
+        "Latin": 0
+      },
+      "native_correctness": null,
+      "synthetic_unreviewed_not_training_data": true
+    }
+  ],
+  "native_quality_established": false
+}

@@ -1,0 +1,139 @@
+{
+  "name": "BalChat",
+  "version": "scratch-prototype-v1",
+  "purpose": "commercial",
+  "visibility": "public",
+  "prepared_manifest_sha256": "14b7e86c0d2055d32dc96a45fe9a84b00424c4510b6f8e56f5f709824dcb4c31",
+  "source_licenses": [
+    "CC-BY-4.0"
+  ],
+  "partitions": {
+    "train": {
+      "records": 16,
+      "word_occurrences": 15818
+    },
+    "validation": {
+      "records": 1,
+      "word_occurrences": 1746
+    },
+    "test": {
+      "records": 0,
+      "word_occurrences": 0
+    }
+  },
+  "native_reviewed_training_records": 0,
+  "verified_instruction_pairs": 0,
+  "train_script_letters": {
+    "Arabic": 911,
+    "Latin": 65737
+  },
+  "tokenizer_trained_on": "train_only",
+  "pretrained_weights_used": false,
+  "vocabulary_size": 3707,
+  "architecture": {
+    "vocab_size": 3707,
+    "max_position_embeddings": 512,
+    "hidden_size": 256,
+    "intermediate_size": 768,
+    "num_hidden_layers": 6,
+    "num_attention_heads": 8,
+    "num_key_value_heads": 4,
+    "hidden_act": "silu",
+    "initializer_range": 0.02,
+    "rms_norm_eps": 1e-05,
+    "pretraining_tp": 1,
+    "use_cache": true,
+    "rope_theta": 10000.0,
+    "rope_scaling": null,
+    "attention_bias": false,
+    "attention_dropout": 0.1,
+    "mlp_bias": false,
+    "head_dim": 32,
+    "return_dict": true,
+    "output_hidden_states": false,
+    "torchscript": false,
+    "dtype": null,
+    "pruned_heads": {},
+    "tie_word_embeddings": true,
+    "chunk_size_feed_forward": 0,
+    "is_encoder_decoder": false,
+    "is_decoder": false,
+    "cross_attention_hidden_size": null,
+    "add_cross_attention": false,
+    "tie_encoder_decoder": false,
+    "architectures": null,
+    "finetuning_task": null,
+    "id2label": {
+      "0": "LABEL_0",
+      "1": "LABEL_1"
+    },
+    "label2id": {
+      "LABEL_0": 0,
+      "LABEL_1": 1
+    },
+    "task_specific_params": null,
+    "problem_type": null,
+    "tokenizer_class": null,
+    "prefix": null,
+    "bos_token_id": 1,
+    "pad_token_id": 0,
+    "eos_token_id": 2,
+    "sep_token_id": null,
+    "decoder_start_token_id": null,
+    "max_length": 20,
+    "min_length": 0,
+    "do_sample": false,
+    "early_stopping": false,
+    "num_beams": 1,
+    "temperature": 1.0,
+    "top_k": 50,
+    "top_p": 1.0,
+    "typical_p": 1.0,
+    "repetition_penalty": 1.0,
+    "length_penalty": 1.0,
+    "no_repeat_ngram_size": 0,
+    "encoder_no_repeat_ngram_size": 0,
+    "bad_words_ids": null,
+    "num_return_sequences": 1,
+    "output_scores": false,
+    "return_dict_in_generate": false,
+    "forced_bos_token_id": null,
+    "forced_eos_token_id": null,
+    "remove_invalid_values": false,
+    "exponential_decay_length_penalty": null,
+    "suppress_tokens": null,
+    "begin_suppress_tokens": null,
+    "num_beam_groups": 1,
+    "diversity_penalty": 0.0,
+    "_name_or_path": "",
+    "transformers_version": "4.57.6",
+    "tf_legacy_loss": false,
+    "use_bfloat16": false,
+    "model_type": "llama",
+    "output_attentions": false
+  },
+  "hardware": {
+    "device": "cuda",
+    "gpu": "NVIDIA TITAN X (Pascal)"
+  },
+  "environment": {
+    "python": "3.12.15",
+    "torch": "2.14.1+cu126",
+    "transformers": "4.57.6",
+    "tokenizers": "0.22.2"
+  },
+  "capabilities": {
+    "native_balochi_chat": "NOT_ESTABLISHED",
+    "translation": "NOT_ESTABLISHED",
+    "reasoning": "NOT_ESTABLISHED",
+    "agentic_tool_use": "NOT_ESTABLISHED"
+  },
+  "options": {
+    "epochs": 5,
+    "max_steps": 1500,
+    "max_seconds": 1200,
+    "block_size": 256,
+    "accumulation": 8,
+    "learning_rate": 0.0003
+  }
+}
